@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Entities;
 
 /// <inheritdoc/>
-public class T2202ReceiptEntityTypeConfiguration : IEntityTypeConfiguration<T2202Receipt>
+internal class T2202ReceiptEntityTypeConfiguration : IEntityTypeConfiguration<T2202Receipt>
 {
     /// <inheritdoc/>
     public void Configure(EntityTypeBuilder<T2202Receipt> builder)

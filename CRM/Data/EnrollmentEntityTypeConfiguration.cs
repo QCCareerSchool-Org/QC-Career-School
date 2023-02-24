@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Entities;
 
 /// <inheritdoc/>
-public class EnrollmentEntityTypeConfiguration : IEntityTypeConfiguration<Enrollment>
+internal class EnrollmentEntityTypeConfiguration : IEntityTypeConfiguration<Enrollment>
 {
     /// <inheritdoc/>
     public void Configure(EntityTypeBuilder<Enrollment> builder)

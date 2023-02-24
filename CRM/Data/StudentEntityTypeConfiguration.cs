@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Entities;
 
 /// <inheritdoc/>
-public class StudentEntityTypeConfiguration : IEntityTypeConfiguration<Student>
+internal class StudentEntityTypeConfiguration : IEntityTypeConfiguration<Student>
 {
     /// <inheritdoc/>
     public void Configure(EntityTypeBuilder<Student> builder)

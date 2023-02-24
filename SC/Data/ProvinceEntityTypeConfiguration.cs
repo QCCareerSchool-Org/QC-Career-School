@@ -1,4 +1,4 @@
-﻿// <copyright file="CountryEntityTypeConfiguration.cs" company="QC Career School">
+﻿// <copyright file="ProvinceEntityTypeConfiguration.cs" company="QC Career School">
 // All rights reserved.
 // </copyright>
 
@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Entities;
 
 /// <inheritdoc/>
-public class ProvinceEntityTypeConfiguration : IEntityTypeConfiguration<Province>
+internal class ProvinceEntityTypeConfiguration : IEntityTypeConfiguration<Province>
 {
     /// <inheritdoc/>
     public void Configure(EntityTypeBuilder<Province> builder)

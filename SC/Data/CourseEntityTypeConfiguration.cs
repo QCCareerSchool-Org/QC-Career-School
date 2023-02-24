@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Entities;
 
 /// <inheritdoc/>
-public class CourseEntityTypeConfiguration : IEntityTypeConfiguration<Course>
+internal class CourseEntityTypeConfiguration : IEntityTypeConfiguration<Course>
 {
     /// <inheritdoc/>
     public void Configure(EntityTypeBuilder<Course> builder)

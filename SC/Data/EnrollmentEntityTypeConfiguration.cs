@@ -10,7 +10,7 @@ using Entities;
 using System.Reflection.Emit;
 
 /// <inheritdoc/>
-public class EnrollmentEntityTypeConfiguration : IEntityTypeConfiguration<Enrollment>
+internal class EnrollmentEntityTypeConfiguration : IEntityTypeConfiguration<Enrollment>
 {
     /// <inheritdoc/>
     public void Configure(EntityTypeBuilder<Enrollment> builder)

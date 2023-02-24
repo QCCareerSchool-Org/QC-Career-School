@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Entities;
 
 /// <inheritdoc/>
-public class ProvinceEntityTypeConfiguration : IEntityTypeConfiguration<Province>
+internal class ProvinceEntityTypeConfiguration : IEntityTypeConfiguration<Province>
 {
     /// <inheritdoc/>
     public void Configure(EntityTypeBuilder<Province> builder)

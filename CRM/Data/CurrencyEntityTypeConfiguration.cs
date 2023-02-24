@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Entities;
 
 /// <inheritdoc/>
-public class CurrencyEntityTypeConfiguration : IEntityTypeConfiguration<Currency>
+internal class CurrencyEntityTypeConfiguration : IEntityTypeConfiguration<Currency>
 {
     /// <inheritdoc/>
     public void Configure(EntityTypeBuilder<Currency> builder)

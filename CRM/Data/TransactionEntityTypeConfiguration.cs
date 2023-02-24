@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Entities;
 
 /// <inheritdoc/>
-public class TransactionEntityTypeConfiguration : IEntityTypeConfiguration<Transaction>
+internal class TransactionEntityTypeConfiguration : IEntityTypeConfiguration<Transaction>
 {
     /// <inheritdoc/>
     public void Configure(EntityTypeBuilder<Transaction> builder)

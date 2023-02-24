@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Entities;
 
 /// <inheritdoc/>
-public class CountryEntityTypeConfiguration : IEntityTypeConfiguration<Country>
+internal class CountryEntityTypeConfiguration : IEntityTypeConfiguration<Country>
 {
     /// <inheritdoc/>
     public void Configure(EntityTypeBuilder<Country> builder)
