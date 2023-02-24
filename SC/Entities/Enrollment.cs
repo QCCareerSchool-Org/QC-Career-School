@@ -1,4 +1,8 @@
-﻿namespace SC.Entities;
+﻿// <copyright file="Enrollment.cs" company="QC Career School">
+// All rights reserved.
+// </copyright>
+
+namespace SC.Entities;
 
 public class Enrollment
 {
@@ -11,6 +15,6 @@ public class Enrollment
     public int StudentNumber {  get; set; }
 
     public Student Student { get; set; }
-    
+
     public Course Course { get; set; }
 }

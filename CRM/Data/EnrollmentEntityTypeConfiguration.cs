@@ -55,7 +55,7 @@ public class EnrollmentEntityTypeConfiguration : IEntityTypeConfiguration<Enroll
             .HasMany(e => e.Transactions)
             .WithOne(t => t.Enrollment)
             .HasForeignKey(t => t.EnrollmentId);
-        
+
         builder
            .HasMany(e => e.TaxReceipts)
            .WithOne(t => t.Enrollment)

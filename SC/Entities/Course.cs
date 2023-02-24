@@ -35,7 +35,7 @@ public class Course
     public int EntityVersion { get; set; }
 
     public School School { get; set; }
-    
+
     public StudentType StudentType { get; set; }
 
     public ICollection<Enrollment> Enrollments { get; set; }

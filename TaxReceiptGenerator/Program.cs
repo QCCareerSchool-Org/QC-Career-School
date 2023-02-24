@@ -4,14 +4,15 @@
 
 namespace TaxReceiptGenerator;
 
+using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using System;
-using SC;
+
 using CRM;
+using SC;
 
 internal class Program
 {

@@ -4,6 +4,13 @@
     "documentationRules": {
       "companyName": "QC Career School",
       "copyrightText": "All rights reserved."
+    },
+    "indentation": {
+      "useTabs": false,
+      "tabSize": 2
+    },
+    "layoutRules": {
+      "newlineAtEndOfFile": "require"
     }
   }
 }

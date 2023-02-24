@@ -4,13 +4,14 @@
 
 namespace TaxReceiptGenerator;
 
+using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using System;
-using CRM.Entities;
-using SC.Entities;
-using SC;
+
 using CRM;
+using CRM.Entities;
+using SC;
+using SC.Entities;
 
 public class Generator
 {
